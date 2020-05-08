@@ -46,6 +46,6 @@ final class Network {
         } catch {
             completion(.failure(error))
         }
-        return token;
+        return token
     }
 }

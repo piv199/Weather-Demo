@@ -36,15 +36,18 @@ extension Publishers {
         }
     }
 
-    class NetworkRequestSubscription<S: Subscriber>: Subscription where S.Input == Network.Response, S.Failure == Error {
+    private class NetworkRequestSubscription<S: Subscriber>: Subscription
+        where S.Input == Network.Response, S.Failure == Error {
+
         // MARK: - Properties
-        private var cancellable: Cancellable
+
+        private let cancellable: Cancellable
 
         // MARK: - Lifecycle
 
         init(network: Network, requestTarget: RequestConvertible, qos: DispatchQoS.QoSClass, subscriber: S) {
             cancellable = network.request(requestTarget, qos: qos, completion: { response in
-                switch(response) {
+                switch response {
                 case let .success(response):
                     _ = subscriber.receive(response)
                     subscriber.receive(completion: .finished)
@@ -56,10 +59,7 @@ extension Publishers {
 
         // MARK: - Subscription
 
-        func request(_ demand: Subscribers.Demand) {
-            print("Requested demand \(demand)")
-            //TODO: - Optionaly Adjust The Demand
-        }
+        func request(_ demand: Subscribers.Demand) {}
 
         func cancel() {
             cancellable.cancel()

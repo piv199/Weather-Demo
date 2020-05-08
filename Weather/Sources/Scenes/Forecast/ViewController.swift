@@ -10,9 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    private lazy var repository = OpenWeather.Repository(network: Network(), apiKey: "c6f46596f01047b0ab32b8ac5cd91019")
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        repository.forecast()
     }
 
 }

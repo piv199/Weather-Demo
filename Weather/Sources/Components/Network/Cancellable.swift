@@ -13,7 +13,6 @@ protocol Cancellable {
     func cancel()
 }
 
-
 final class CancellableToken: Cancellable {
     // MARK: - Properties
 

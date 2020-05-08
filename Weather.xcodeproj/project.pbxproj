@@ -29,6 +29,7 @@
 		FA667B14246564B500B9BE5E /* Cancellable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA667B13246564B500B9BE5E /* Cancellable.swift */; };
 		FA667B16246564FB00B9BE5E /* URLRequest+Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA667B15246564FB00B9BE5E /* URLRequest+Network.swift */; };
 		FA667B1B24656BAD00B9BE5E /* HTTPHeader+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA667B1A24656BAD00B9BE5E /* HTTPHeader+Extensions.swift */; };
+		FA667B1D24657CBC00B9BE5E /* Forecast.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA667B1C24657CBC00B9BE5E /* Forecast.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		FA667B13246564B500B9BE5E /* Cancellable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cancellable.swift; sourceTree = "<group>"; };
 		FA667B15246564FB00B9BE5E /* URLRequest+Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Network.swift"; sourceTree = "<group>"; };
 		FA667B1A24656BAD00B9BE5E /* HTTPHeader+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HTTPHeader+Extensions.swift"; sourceTree = "<group>"; };
+		FA667B1C24657CBC00B9BE5E /* Forecast.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Forecast.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +197,7 @@
 		FA667ADD24653F8100B9BE5E /* Forecast */ = {
 			isa = PBXGroup;
 			children = (
+				FA667B1C24657CBC00B9BE5E /* Forecast.storyboard */,
 				FA667AB1246533D800B9BE5E /* ViewController.swift */,
 			);
 			path = Forecast;
@@ -391,6 +394,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA667AF1246545D700B9BE5E /* Launch Screen.storyboard in Resources */,
+				FA667B1D24657CBC00B9BE5E /* Forecast.storyboard in Resources */,
 				FA667B03246550C200B9BE5E /* Colors.xcassets in Resources */,
 				FA667B01246550B300B9BE5E /* Localizable.strings in Resources */,
 				FA667AB7246533DB00B9BE5E /* Images.xcassets in Resources */,
