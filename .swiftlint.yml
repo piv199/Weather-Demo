@@ -1,0 +1,37 @@
+disabled_rules: # rule identifiers to exclude from running
+  - opening_brace
+  - trailing_whitespace
+  - nesting
+opt_in_rules:
+  - empty_count
+included:
+  - Weather
+excluded:
+  - Carthage
+  - Pods
+  - Weather/Sources/Generated
+  - Weather/Frameworks
+force_cast: warning 
+force_try: warning
+line_length: 140
+file_length:
+  warning: 300
+  error: 500
+type_name:
+  min_length: 4
+  max_length:
+    warning: 40
+    error: 50
+  excluded:
+    - Key
+    - Ok
+identifier_name:
+  min_length:
+    error: 3
+  excluded:
+    - id
+    - URL
+    - x
+    - y
+    - z
+    - vc
