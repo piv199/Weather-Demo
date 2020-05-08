@@ -12,8 +12,6 @@
 		FA667AB0246533D800B9BE5E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA667AAF246533D800B9BE5E /* SceneDelegate.swift */; };
 		FA667AB2246533D800B9BE5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA667AB1246533D800B9BE5E /* ViewController.swift */; };
 		FA667AB7246533DB00B9BE5E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA667AB6246533DB00B9BE5E /* Images.xcassets */; };
-		FA667AE32465437F00B9BE5E /* ReactiveSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FA667AE22465437F00B9BE5E /* ReactiveSwift */; };
-		FA667AE62465442300B9BE5E /* ReactiveMoya in Frameworks */ = {isa = PBXBuildFile; productRef = FA667AE52465442300B9BE5E /* ReactiveMoya */; };
 		FA667AE92465453A00B9BE5E /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = FA667AE82465453A00B9BE5E /* Charts */; };
 		FA667AEC2465456C00B9BE5E /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = FA667AEB2465456C00B9BE5E /* Nuke */; };
 		FA667AEF2465459F00B9BE5E /* Resolver in Frameworks */ = {isa = PBXBuildFile; productRef = FA667AEE2465459F00B9BE5E /* Resolver */; };
@@ -21,6 +19,16 @@
 		FA667AF324654E0A00B9BE5E /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA667AF224654E0A00B9BE5E /* R.generated.swift */; };
 		FA667B01246550B300B9BE5E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA667B00246550B300B9BE5E /* Localizable.strings */; };
 		FA667B03246550C200B9BE5E /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA667B02246550C200B9BE5E /* Colors.xcassets */; };
+		FA667B05246555C500B9BE5E /* OpenWeatherRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA667B04246555C500B9BE5E /* OpenWeatherRepository.swift */; };
+		FA667B0824655B4B00B9BE5E /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = FA667B0724655B4B00B9BE5E /* Alamofire */; };
+		FA667B0A24655B7D00B9BE5E /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA667B0924655B7D00B9BE5E /* Network.swift */; };
+		FA667B0C246563AB00B9BE5E /* RequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA667B0B246563AB00B9BE5E /* RequestConvertible.swift */; };
+		FA667B0E246563F400B9BE5E /* Network+Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA667B0D246563F400B9BE5E /* Network+Response.swift */; };
+		FA667B102465640A00B9BE5E /* Network+Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA667B0F2465640A00B9BE5E /* Network+Task.swift */; };
+		FA667B122465649E00B9BE5E /* Network+Reactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA667B112465649E00B9BE5E /* Network+Reactive.swift */; };
+		FA667B14246564B500B9BE5E /* Cancellable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA667B13246564B500B9BE5E /* Cancellable.swift */; };
+		FA667B16246564FB00B9BE5E /* URLRequest+Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA667B15246564FB00B9BE5E /* URLRequest+Network.swift */; };
+		FA667B1B24656BAD00B9BE5E /* HTTPHeader+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA667B1A24656BAD00B9BE5E /* HTTPHeader+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +45,15 @@
 		FA667AF224654E0A00B9BE5E /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		FA667B00246550B300B9BE5E /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		FA667B02246550C200B9BE5E /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		FA667B04246555C500B9BE5E /* OpenWeatherRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWeatherRepository.swift; sourceTree = "<group>"; };
+		FA667B0924655B7D00B9BE5E /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		FA667B0B246563AB00B9BE5E /* RequestConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestConvertible.swift; sourceTree = "<group>"; };
+		FA667B0D246563F400B9BE5E /* Network+Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Network+Response.swift"; sourceTree = "<group>"; };
+		FA667B0F2465640A00B9BE5E /* Network+Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Network+Task.swift"; sourceTree = "<group>"; };
+		FA667B112465649E00B9BE5E /* Network+Reactive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Network+Reactive.swift"; sourceTree = "<group>"; };
+		FA667B13246564B500B9BE5E /* Cancellable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cancellable.swift; sourceTree = "<group>"; };
+		FA667B15246564FB00B9BE5E /* URLRequest+Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Network.swift"; sourceTree = "<group>"; };
+		FA667B1A24656BAD00B9BE5E /* HTTPHeader+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HTTPHeader+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,8 +63,7 @@
 			files = (
 				FA667AEF2465459F00B9BE5E /* Resolver in Frameworks */,
 				A28F9478DDAFE7619FDE703A /* Pods_Weather.framework in Frameworks */,
-				FA667AE32465437F00B9BE5E /* ReactiveSwift in Frameworks */,
-				FA667AE62465442300B9BE5E /* ReactiveMoya in Frameworks */,
+				FA667B0824655B4B00B9BE5E /* Alamofire in Frameworks */,
 				FA667AE92465453A00B9BE5E /* Charts in Frameworks */,
 				FA667AEC2465456C00B9BE5E /* Nuke in Frameworks */,
 			);
@@ -105,6 +121,7 @@
 		FA667AD324653A8500B9BE5E /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				FA667B1724656B8A00B9BE5E /* Addons */,
 				FA667ADA24653B0D00B9BE5E /* Generated */,
 				FA667AD824653AEF00B9BE5E /* Application */,
 				FA667AF424654F2000B9BE5E /* Components */,
@@ -219,6 +236,13 @@
 		FA667AF924654FF800B9BE5E /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				FA667B13246564B500B9BE5E /* Cancellable.swift */,
+				FA667B0B246563AB00B9BE5E /* RequestConvertible.swift */,
+				FA667B0924655B7D00B9BE5E /* Network.swift */,
+				FA667B0D246563F400B9BE5E /* Network+Response.swift */,
+				FA667B0F2465640A00B9BE5E /* Network+Task.swift */,
+				FA667B112465649E00B9BE5E /* Network+Reactive.swift */,
+				FA667B15246564FB00B9BE5E /* URLRequest+Network.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -226,6 +250,7 @@
 		FA667AFA2465500400B9BE5E /* OpenWeather */ = {
 			isa = PBXGroup;
 			children = (
+				FA667B04246555C500B9BE5E /* OpenWeatherRepository.swift */,
 			);
 			path = OpenWeather;
 			sourceTree = "<group>";
@@ -267,6 +292,30 @@
 			path = Strings;
 			sourceTree = "<group>";
 		};
+		FA667B1724656B8A00B9BE5E /* Addons */ = {
+			isa = PBXGroup;
+			children = (
+				FA667B1824656B8F00B9BE5E /* Extensions */,
+			);
+			path = Addons;
+			sourceTree = "<group>";
+		};
+		FA667B1824656B8F00B9BE5E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FA667B1924656B9400B9BE5E /* Alamofire */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FA667B1924656B9400B9BE5E /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				FA667B1A24656BAD00B9BE5E /* HTTPHeader+Extensions.swift */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -288,11 +337,10 @@
 			);
 			name = Weather;
 			packageProductDependencies = (
-				FA667AE22465437F00B9BE5E /* ReactiveSwift */,
-				FA667AE52465442300B9BE5E /* ReactiveMoya */,
 				FA667AE82465453A00B9BE5E /* Charts */,
 				FA667AEB2465456C00B9BE5E /* Nuke */,
 				FA667AEE2465459F00B9BE5E /* Resolver */,
+				FA667B0724655B4B00B9BE5E /* Alamofire */,
 			);
 			productName = Weather;
 			productReference = FA667AAA246533D800B9BE5E /* Weather.app */;
@@ -323,11 +371,10 @@
 			);
 			mainGroup = FA667AA1246533D800B9BE5E;
 			packageReferences = (
-				FA667AE12465437F00B9BE5E /* XCRemoteSwiftPackageReference "ReactiveSwift" */,
-				FA667AE42465442300B9BE5E /* XCRemoteSwiftPackageReference "Moya" */,
 				FA667AE72465453A00B9BE5E /* XCRemoteSwiftPackageReference "Charts" */,
 				FA667AEA2465456B00B9BE5E /* XCRemoteSwiftPackageReference "Nuke" */,
 				FA667AED2465459F00B9BE5E /* XCRemoteSwiftPackageReference "Resolver" */,
+				FA667B0624655B4B00B9BE5E /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = FA667AAB246533D800B9BE5E /* Products */;
 			projectDirPath = "";
@@ -438,8 +485,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA667B16246564FB00B9BE5E /* URLRequest+Network.swift in Sources */,
 				FA667AB2246533D800B9BE5E /* ViewController.swift in Sources */,
+				FA667B122465649E00B9BE5E /* Network+Reactive.swift in Sources */,
 				FA667AAE246533D800B9BE5E /* AppDelegate.swift in Sources */,
+				FA667B1B24656BAD00B9BE5E /* HTTPHeader+Extensions.swift in Sources */,
+				FA667B0C246563AB00B9BE5E /* RequestConvertible.swift in Sources */,
+				FA667B0A24655B7D00B9BE5E /* Network.swift in Sources */,
+				FA667B102465640A00B9BE5E /* Network+Task.swift in Sources */,
+				FA667B05246555C500B9BE5E /* OpenWeatherRepository.swift in Sources */,
+				FA667B14246564B500B9BE5E /* Cancellable.swift in Sources */,
+				FA667B0E246563F400B9BE5E /* Network+Response.swift in Sources */,
 				FA667AB0246533D800B9BE5E /* SceneDelegate.swift in Sources */,
 				FA667AF324654E0A00B9BE5E /* R.generated.swift in Sources */,
 			);
@@ -498,7 +554,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -552,7 +608,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -624,22 +680,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		FA667AE12465437F00B9BE5E /* XCRemoteSwiftPackageReference "ReactiveSwift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/ReactiveCocoa/ReactiveSwift.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 6.2.1;
-			};
-		};
-		FA667AE42465442300B9BE5E /* XCRemoteSwiftPackageReference "Moya" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Moya/Moya.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 14.0.0;
-			};
-		};
 		FA667AE72465453A00B9BE5E /* XCRemoteSwiftPackageReference "Charts" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/danielgindi/Charts";
@@ -664,19 +704,17 @@
 				minimumVersion = 1.1.4;
 			};
 		};
+		FA667B0624655B4B00B9BE5E /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		FA667AE22465437F00B9BE5E /* ReactiveSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = FA667AE12465437F00B9BE5E /* XCRemoteSwiftPackageReference "ReactiveSwift" */;
-			productName = ReactiveSwift;
-		};
-		FA667AE52465442300B9BE5E /* ReactiveMoya */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = FA667AE42465442300B9BE5E /* XCRemoteSwiftPackageReference "Moya" */;
-			productName = ReactiveMoya;
-		};
 		FA667AE82465453A00B9BE5E /* Charts */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = FA667AE72465453A00B9BE5E /* XCRemoteSwiftPackageReference "Charts" */;
@@ -691,6 +729,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = FA667AED2465459F00B9BE5E /* XCRemoteSwiftPackageReference "Resolver" */;
 			productName = Resolver;
+		};
+		FA667B0724655B4B00B9BE5E /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA667B0624655B4B00B9BE5E /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
